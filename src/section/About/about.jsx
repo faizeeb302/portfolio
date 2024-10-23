@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./about.module.css"
 import Card from '../../components/card/card';
-import pic1 from "../../static/images/pic1.jpeg"
+import pic1 from "../../static/images/profile.jpg"
 
 const About = () => {
 
