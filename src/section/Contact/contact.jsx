@@ -16,9 +16,9 @@ const Contacts = () => {
                 <p>Address: house#12, street#1, california, USA</p>
             </div>
             <div className={style.socials}>
-                <div className={style.social}><a href="">Github</a><PiGithubLogoThin/></div>
-                <div className={style.social}><a href="https://www.linkedin.com/in/adnan-zahid-570579272/">Linkedin</a><PiLinkedinLogo/></div>
-                <div className={style.social}><a href="">Email</a><PiVoicemail/></div>
+                <div className={style.social}><a href="https://github.com/Adnanzahid12" target='blank'>Github</a><PiGithubLogoThin/></div>
+                <div className={style.social}><a href="https://www.linkedin.com/in/adnan-zahid-570579272/" target='blank'>Linkedin</a><PiLinkedinLogo/></div>
+                <div className={style.social}><a href="mailto:adnanzahid007@gmail.com">Email</a><PiVoicemail/></div>
 
             </div>
 

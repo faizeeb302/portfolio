@@ -2,12 +2,13 @@
     display: flex;
     padding: 2% 5%;
     justify-content: space-between;
-    background-color:#CBD2A4 ;
+    background-color: #CBD2A4;
+    flex-wrap: wrap; 
 }
 
 .image{
-    width: 40%;
-    height:10%;
+    width: 30%;
+    height: auto;
 }
 
 
@@ -18,15 +19,19 @@
     color: black;
     white-space: wrap;
     padding: 0 5%;
+    width: 55%; 
 }
 
 .content h1{
     margin: 2px 0;
+    font-size: 2rem;
 }
 
 .content p{
     margin: 2px 0;
+    font-size: 1.1rem; 
 }
+
 
 .btn{
     display: flex;
@@ -47,5 +52,61 @@
 }
 
 .btn:hover{
-    scale:1.1
+    scale: 1.1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        padding: 5% 3%;
+    }
+
+    .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: 4%;
+        text-align: center;
+        padding: 0 1%;
+    }
+
+    .content h1 {
+        font-size: 1.8rem; 
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .image {
+        width: 100%; 
+    }
+
+    .content {
+        padding: 0 1%;
+    }
+
+    .content h1 {
+        font-size: 1.5rem; 
+    }
+
+    .content p {
+        font-size: 0.9rem; 
+    }
+
+    .btn {
+        padding: 6px 15px; 
+        font-size: 14px; 
+    }
 }
